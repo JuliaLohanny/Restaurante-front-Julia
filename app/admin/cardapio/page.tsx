@@ -140,7 +140,7 @@ export default function CardapioAdmin() {
                                     />
                                 )}
 
-                                <div className="p-5">
+                                <div className="p-5">  
 
                                     <h2 className="text-xl font-bold">
                                         {produto.descricao}

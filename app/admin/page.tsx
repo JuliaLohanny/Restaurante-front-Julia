@@ -70,7 +70,7 @@ export default function AdminPage(){
 
                     <div>
                         <label>Preço</label>
-                        <input type="number"
+                        <input type="number" 
                         value={preco}
                         onChange={(e)=> setPreco(e.target.value)}
                         placeholder="Ex: 10.00"
