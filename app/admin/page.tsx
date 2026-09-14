@@ -37,7 +37,7 @@ export default function AdminPage(){
             }
         } catch (error) {
             console.log(error)
-            alert("Erro ao cadastrar")
+            alert("Erro ao cadastrar")  
 
         }
     }

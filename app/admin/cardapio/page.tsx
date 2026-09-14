@@ -132,8 +132,8 @@ export default function CardapioAdmin() {
 
                                 {produto.imagem && (
                                     <Image
-                                        src={produto.imagem}
-                                        alt={produto.descricao}
+                                        src={produto.imagem}  
+                                        alt={produto.descricao}  
                                         width={500}
                                         height={300}
                                         className="h-48 w-full object-contain"
