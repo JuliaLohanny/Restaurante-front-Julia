@@ -62,7 +62,7 @@ export default function CardapioAdmin() {
 
         try {
             const response = await fetch(
-                `${process.env.API_URL}/produtos`,
+                `${process.env.NEXT_PUBLIC_API_URL}/produtos`,
                 {
                     method: "DELETE"
                 }
