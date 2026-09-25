@@ -19,7 +19,7 @@ export default function CardapioAdmin() {
 
     async function carregarProdutos() {
         try {
-            const response = await fetch("http://localhost:3001/produtos")
+            const response = await fetch(`${process.env.API_URL}/produtos`)
 
             if (!response.ok) {
                 throw new Error("Erro ao buscar produtos")
@@ -62,7 +62,7 @@ export default function CardapioAdmin() {
 
         try {
             const response = await fetch(
-                `http://localhost:3001/produtos/${id}`,
+                `${process.env.API_URL}/produtos`,
                 {
                     method: "DELETE"
                 }
